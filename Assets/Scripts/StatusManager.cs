@@ -14,7 +14,7 @@ public class StatusManager : MonoBehaviour
         }
     }
 
-    void load_mode()
+    void load_mode()//以前保存したステータスの代入
     {
         for(int i = 0;i < statusPlayerValue.length; i++)
         {
@@ -23,7 +23,7 @@ public class StatusManager : MonoBehaviour
         
     }
 
-    void save_mode()
+    void save_mode()//ステータスの保存処理
     {
         for(int i = 0;i < statusPlayerValue.length; i++)
         {
