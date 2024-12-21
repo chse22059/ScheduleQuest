@@ -4,7 +4,7 @@ using UnityEngine.SceneManagement;
 
 public class escapeButton : MonoBehaviour
 {
-    public String  preScene = "";//前のシーン受け取り変数
+    public String preScene = "";//前のシーン受け取り変数
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
