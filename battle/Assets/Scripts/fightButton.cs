@@ -4,7 +4,7 @@ public class fightButton : MonoBehaviour
 {
     void attack()
     {
-        statusEnemyValue[0] -= statusPlayerValue.[2];
+        //statusEnemyValue[0] -= statusPlayerValue.[2];
     }
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()

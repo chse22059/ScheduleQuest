@@ -8,7 +8,7 @@ public class StatusManager : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        for(int i = 0;i < statusPlayerValue.length; i++)
+        for(int i = 0;i < statusPlayerValue.Length; i++)
         {
             load_mode();
         }
@@ -16,7 +16,7 @@ public class StatusManager : MonoBehaviour
 
     void load_mode()//以前保存したステータスの代入
     {
-        for(int i = 0;i < statusPlayerValue.length; i++)
+        for(int i = 0;i < statusPlayerValue.Length; i++)
         {
             statusPlayerValue[i] = PlayerPrefs.GetInt("statusPlayerValue"+i);
         }
@@ -25,7 +25,7 @@ public class StatusManager : MonoBehaviour
 
     void save_mode()//ステータスの保存処理
     {
-        for(int i = 0;i < statusPlayerValue.length; i++)
+        for(int i = 0;i < statusPlayerValue.Length; i++)
         {
             PlayerPrefs.SetInt("statusPlayerValue"+i, statusPlayerValue[i]);
             PlayerPrefs.Save();
