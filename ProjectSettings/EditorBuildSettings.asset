@@ -17,6 +17,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/cave.unity
     guid: 27bf53e221f2ad244971fb0688d7b91f
+  - enabled: 1
+    path: Assets/Scenes/spookey.unity
+    guid: 991baf5e07931f24c8c485f9859c4df5
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
