@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 3
   tags:
   - back_mapSelect
+  - Boss
+  - MidBoss
+  - IntPosition
   layers:
   - Default
   - TransparentFX
