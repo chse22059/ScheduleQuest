@@ -2,7 +2,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
-    public class button_go_otherMap : MonoBehaviour
+    public class end_kari : MonoBehaviour
     {   
     [SerializeField]
     private string sceneName;
