@@ -4,7 +4,7 @@ using TMPro;
 
 public class StatusWindowManagerEnemy : MonoBehaviour
 {
-    [SerializeField] StatusEnemy statusEnemy;
+    [SerializeField] StatusEnemySO statusEnemySO;
 
     [SerializeField] TextMeshProUGUI enemy_hp_txt;
 
@@ -17,6 +17,6 @@ public class StatusWindowManagerEnemy : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        enemy_hp_txt.GetComponent<TextMeshProUGUI>().text = "HP : "+statusEnemy.HP.ToString();
+        enemy_hp_txt.GetComponent<TextMeshProUGUI>().text = "HP : "+statusEnemySO.HP.ToString();
     }
 }

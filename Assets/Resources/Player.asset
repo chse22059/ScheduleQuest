@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hp: 1003
   mp: 12
-  atk: 51
+  atk: 100
   equip: 4
   gold: 101

@@ -9,7 +9,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1968e115cbf44494795e175789a28c3d, type: 3}
+  m_Script: {fileID: 11500000, guid: ebe6404dd277e6c4eb237a089ac63196, type: 3}
   m_Name: Enemy
   m_EditorClassIdentifier: 
-  hp: 0
+  hp: 2000
+  battleInfo: 
