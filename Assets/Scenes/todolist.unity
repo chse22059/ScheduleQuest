@@ -925,6 +925,7 @@ GameObject:
   - component: {fileID: 1341557060}
   - component: {fileID: 1341557059}
   - component: {fileID: 1341557058}
+  - component: {fileID: 1341557062}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -1034,6 +1035,19 @@ RectTransform:
   m_AnchoredPosition: {x: 333, y: 861}
   m_SizeDelta: {x: 162, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1341557062
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1341557057}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 901ac7ddcf60edf409cf839350da1235, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneName: HomeScene
 --- !u!1 &1391398548
 GameObject:
   m_ObjectHideFlags: 0
