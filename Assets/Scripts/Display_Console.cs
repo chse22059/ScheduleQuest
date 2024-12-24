@@ -4,7 +4,6 @@ using TMPro;
 
 public class Display_Console : MonoBehaviour
 {
-    /*
     [SerializeField] StatusSO statusSO;
 
     [SerializeField] TextMeshProUGUI console_txt;
@@ -23,5 +22,4 @@ public class Display_Console : MonoBehaviour
         
         
     }
-    */
 }

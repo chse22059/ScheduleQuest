@@ -4,7 +4,6 @@ using TMPro;
 
 public class StatusWindowManagerEnemy : MonoBehaviour
 {
-    /*
     [SerializeField] StatusEnemy statusEnemy;
 
     [SerializeField] TextMeshProUGUI enemy_hp_txt;
@@ -20,5 +19,4 @@ public class StatusWindowManagerEnemy : MonoBehaviour
     {
         enemy_hp_txt.GetComponent<TextMeshProUGUI>().text = "HP : "+statusEnemy.HP.ToString();
     }
-    */
 }
