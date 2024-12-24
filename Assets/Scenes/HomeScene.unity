@@ -1221,7 +1221,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c92266884f6c66340af5a17a53e3c28c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  statusSO: {fileID: 11400000, guid: 83187bb5c8ea5c542af8979d8920893e, type: 2}
+  statusSO: {fileID: 11400000, guid: 1cbc845adbd267b42afe6acfb44de554, type: 2}
   HPValue: {fileID: 580746028}
   MPValue: {fileID: 1717096956}
   ATKValue: {fileID: 1931175846}
@@ -3377,7 +3377,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   EXP: {fileID: 11400000, guid: 37a54c6ccc5404d4cb1f1dc26601d059, type: 2}
-  statusSO: {fileID: 11400000, guid: 83187bb5c8ea5c542af8979d8920893e, type: 2}
+  statusSO: {fileID: 11400000, guid: 1cbc845adbd267b42afe6acfb44de554, type: 2}
   hpButton: {fileID: 477262484}
   mpButton: {fileID: 440389084}
   atkButton: {fileID: 992226242}
