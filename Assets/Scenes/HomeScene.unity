@@ -1732,11 +1732,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-<<<<<<< HEAD
-  m_Color: {r: 0.20125782, g: 0.20125782, b: 0.20125782, a: 1}
-=======
   m_Color: {r: 0.20754719, g: 0.20754719, b: 0.20754719, a: 1}
->>>>>>> 2268d7853159b41ba6bf3ea6512fb62f338684a0
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
