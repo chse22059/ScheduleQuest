@@ -2,8 +2,9 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 
-public class test2 : MonoBehaviour
+public class Display_Console : MonoBehaviour
 {
+    /*
     [SerializeField] StatusSO statusSO;
 
     [SerializeField] TextMeshProUGUI console_txt;
@@ -22,4 +23,5 @@ public class test2 : MonoBehaviour
         
         
     }
+    */
 }
