@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d4328c8944ea25f4e82d69c168d47dbd, type: 3}
   m_Name: Player
   m_EditorClassIdentifier: 
-  hp: 100
-  mp: 5
-  atk: 100
+  hp: 0
+  mp: 20
+  atk: 40
   equip: 10
   gold: 100

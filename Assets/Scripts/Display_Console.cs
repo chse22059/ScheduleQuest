@@ -20,10 +20,13 @@ public class Display_Console : MonoBehaviour
     {
         if(statusEnemySO.HP <= 0)
         {
-            console_txt.GetComponent<TextMeshProUGUI>().text = "てきをたおした！";
+            console_txt.GetComponent<TextMeshProUGUI>().text = "てきをたおした!";
         }else if(statusEnemySO.BattleInfo == "attack")
         {
-            console_txt.GetComponent<TextMeshProUGUI>().text = statusSO.ATK.ToString()+"こうげきした！";
+            console_txt.GetComponent<TextMeshProUGUI>().text = statusSO.ATK.ToString()+"こうげきした!\n敵が"+statusEnemySO.ATK+"こうげきした!";
+        }else if(statusEnemySO.BattleInfo == "magic")
+        {
+            console_txt.GetComponent<TextMeshProUGUI>().text = "ATKが20ふえた!";
         }
 
     }

@@ -1,6 +1,8 @@
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using System;
+using System.Threading;
 
 public class fightButton : MonoBehaviour
 {
@@ -21,6 +23,7 @@ public class fightButton : MonoBehaviour
     void push()
     {
         statusEnemySO.HP -= statusSO.ATK;
+        statusSO.HP -= statusEnemySO.ATK;
         if(statusEnemySO.HP < 0)
         {
             statusEnemySO.HP = 0;
@@ -35,8 +38,15 @@ public class fightButton : MonoBehaviour
         {
             isKilled = true;
         }
+        
+        if(statusSO.HP == 0)
+        {
+            Thread.Sleep(1000);
+            SceneManager.LoadScene(SceneName);
+        }
         if(isKilled)
         {
+            Thread.Sleep(1000);
             SceneManager.LoadScene(SceneName);
         }
     }
