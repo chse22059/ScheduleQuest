@@ -11019,7 +11019,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26260e4166de82e429c7d2a6a7d4d744, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 0}
+  player: {fileID: 2108802761}
   bossObject: {fileID: 1772377953}
   MidbossObject: {fileID: 674405648}
 --- !u!4 &1161590985
@@ -40697,6 +40697,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   distanceThreshold: 3
   encounterProbability: 0.3
+  battleScene: BattleScene_kazan
   player: {fileID: 2108802761}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:

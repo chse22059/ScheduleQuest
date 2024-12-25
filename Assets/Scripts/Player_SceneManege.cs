@@ -7,6 +7,9 @@ public class Player_SceneManege : MonoBehaviour
     public float encounterProbability = 0.3f;//エンカウント発生率
     private Vector2 previousPosition;
     private float distanceMoved = 0f; //移動距離の累積
+    [SerializeField]
+    private string battleScene;
+    public string BSceneName => battleScene;
 
     public GameObject player;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -31,7 +34,7 @@ public class Player_SceneManege : MonoBehaviour
         if(Random.value <= encounterProbability && player != null) {
             Player_MoveController.canMove = false;
             GameManager.Instance.SavePlayerPosition(player.transform.position);
-            SceneManager.LoadScene("Battle(kari)");
+            SceneManager.LoadScene(BSceneName);
             //SceneManager
         } else {
             Debug.Log("through");

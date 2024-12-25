@@ -848,6 +848,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   distanceThreshold: 5
   encounterProbability: 0.3
+  battleScene: BattleScene_snow
   player: {fileID: 327239833}
 --- !u!1 &519420028
 GameObject:
@@ -3644,7 +3645,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26260e4166de82e429c7d2a6a7d4d744, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 0}
+  player: {fileID: 327239833}
   bossObject: {fileID: 1190594051}
   MidbossObject: {fileID: 1520655007}
 --- !u!4 &605718275

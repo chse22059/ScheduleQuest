@@ -695,7 +695,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dd3c46d45578489468fd4491288639f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SPEED: 3
+  SPEED: 1
   joystick: {fileID: 1948567805}
 --- !u!95 &327239840
 Animator:
@@ -733,6 +733,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   distanceThreshold: 5
   encounterProbability: 0.3
+  battleScene: BattleScene_kusa
   player: {fileID: 327239833}
 --- !u!1 &519420028
 GameObject:

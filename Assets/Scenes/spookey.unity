@@ -669,7 +669,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 327239834}
-  - component: {fileID: 327239835}
   - component: {fileID: 327239837}
   - component: {fileID: 327239838}
   - component: {fileID: 327239839}
@@ -698,18 +697,6 @@ Transform:
   - {fileID: 1039259838}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &327239835
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 327239833}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f7d9abc5cd88f294e8081ff7164342f6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!50 &327239837
 Rigidbody2D:
   serializedVersion: 5
@@ -833,6 +820,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   distanceThreshold: 5
   encounterProbability: 0.3
+  battleScene: BattleScene_spookey
   player: {fileID: 327239833}
 --- !u!1 &519420028
 GameObject:
@@ -31294,7 +31282,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26260e4166de82e429c7d2a6a7d4d744, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 0}
+  player: {fileID: 327239833}
   bossObject: {fileID: 1898724147}
   MidbossObject: {fileID: 716523636}
 --- !u!4 &1777620217

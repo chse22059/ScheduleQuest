@@ -20,6 +20,21 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/spookey.unity
     guid: 991baf5e07931f24c8c485f9859c4df5
+  - enabled: 1
+    path: Assets/Scenes/BattleScene_kusa.unity
+    guid: 9664c5d80bafa3042b32aecb2323a96e
+  - enabled: 1
+    path: Assets/Scenes/BattleScene_kazan.unity
+    guid: 1f6f2de1ac01e5041a6c19dd6ff73e57
+  - enabled: 1
+    path: Assets/Scenes/BattleScene_cave.unity
+    guid: 4384552e05228ab4d965d47085e3a719
+  - enabled: 1
+    path: Assets/Scenes/BattleScene_snow.unity
+    guid: 04298611ab92eb545b13e704414a42b6
+  - enabled: 1
+    path: Assets/Scenes/BattleScene_spookey.unity
+    guid: bb4e3a36d204d1c42abca042beb7f5ae
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
