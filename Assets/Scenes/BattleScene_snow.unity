@@ -532,7 +532,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c92266884f6c66340af5a17a53e3c28c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  statusSO: {fileID: 11400000, guid: 83187bb5c8ea5c542af8979d8920893e, type: 2}
+  statusSO: {fileID: 11400000, guid: 1cbc845adbd267b42afe6acfb44de554, type: 2}
   HPValue: {fileID: 2020967482}
   MPValue: {fileID: 1731635971}
   ATKValue: {fileID: 1646034111}
@@ -1893,8 +1893,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7b9fae6b624e6bf4390e8c05ac04ac88, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isKilled: 0
   statusEnemySO: {fileID: 11400000, guid: ac4a08d5b168eb4458c12c6b5a3bc74f, type: 2}
-  statusSO: {fileID: 11400000, guid: 83187bb5c8ea5c542af8979d8920893e, type: 2}
+  statusSO: {fileID: 11400000, guid: 1cbc845adbd267b42afe6acfb44de554, type: 2}
+  sceneName: snow
 --- !u!1 &1298177759
 GameObject:
   m_ObjectHideFlags: 0
@@ -2407,7 +2409,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43c69ffb0b7131e4c8f61f0365cba2b5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  statusSO: {fileID: 11400000, guid: 83187bb5c8ea5c542af8979d8920893e, type: 2}
+  statusSO: {fileID: 11400000, guid: 1cbc845adbd267b42afe6acfb44de554, type: 2}
   statusEnemySO: {fileID: 11400000, guid: ac4a08d5b168eb4458c12c6b5a3bc74f, type: 2}
   console_txt: {fileID: 1468425415}
 --- !u!1 &1582441502
