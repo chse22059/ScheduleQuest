@@ -1908,10 +1908,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7b9fae6b624e6bf4390e8c05ac04ac88, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isKilled: 0
+  isKilledEnemy: 0
+  isKilledPlayer: 0
   statusEnemySO: {fileID: 11400000, guid: ac4a08d5b168eb4458c12c6b5a3bc74f, type: 2}
   statusSO: {fileID: 11400000, guid: 1cbc845adbd267b42afe6acfb44de554, type: 2}
-  sceneName: spookey
 --- !u!1 &1298177759
 GameObject:
   m_ObjectHideFlags: 0
@@ -2274,6 +2274,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c8e139d63856144e9d16b4dc3f590ca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  statusEnemySO: {fileID: 0}
   sceneName: spookey
 --- !u!1 &1468425413
 GameObject:
@@ -2303,14 +2304,14 @@ RectTransform:
   m_GameObject: {fileID: 1468425413}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 4.6727996, y: 4.1412, z: 1}
+  m_LocalScale: {x: 4.9858775, y: 4.1412, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 145677053}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 305, y: -466}
+  m_AnchoredPosition: {x: 358, y: -448}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1468425415
@@ -2333,7 +2334,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 
+  m_text: xxxxxxxxxxxxx
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 904ab7e29e5ab2940937221dbe30b25b, type: 2}
   m_sharedMaterial: {fileID: 4548471500277855314, guid: 904ab7e29e5ab2940937221dbe30b25b, type: 2}
@@ -2360,8 +2361,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 9
-  m_fontSizeBase: 9
+  m_fontSize: 10
+  m_fontSizeBase: 10
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -2427,6 +2428,7 @@ MonoBehaviour:
   statusSO: {fileID: 11400000, guid: 1cbc845adbd267b42afe6acfb44de554, type: 2}
   statusEnemySO: {fileID: 11400000, guid: ac4a08d5b168eb4458c12c6b5a3bc74f, type: 2}
   console_txt: {fileID: 1468425415}
+  sceneName: spookey
 --- !u!1 &1582441502
 GameObject:
   m_ObjectHideFlags: 0

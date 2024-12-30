@@ -17,6 +17,6 @@ public class StatusWindowManagerEnemy : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        enemy_hp_txt.GetComponent<TextMeshProUGUI>().text = "HP : "+statusEnemySO.HP.ToString();
+        enemy_hp_txt.GetComponent<TextMeshProUGUI>().text = "HP : "+statusEnemySO.HP.ToString()+"\nATK : "+statusEnemySO.ATK.ToString();
     }
 }
