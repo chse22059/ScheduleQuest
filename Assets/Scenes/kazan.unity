@@ -457,7 +457,7 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_VertexColorAlwaysGammaSpace: 0
-  m_AdditionalShaderChannelsFlag: 0
+  m_AdditionalShaderChannelsFlag: 25
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
   m_SortingOrder: 10
@@ -11414,6 +11414,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isBossDefeated: 0
   isMidBossDefeated: 0
+  pushHomeButton: 0
   playerPosition: {x: 0, y: 0}
 --- !u!4 &1667682628
 Transform:
