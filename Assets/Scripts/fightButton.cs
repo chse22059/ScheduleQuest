@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.UI;
+using System;
 
 
 public class fightButton : MonoBehaviour
@@ -20,7 +21,7 @@ public class fightButton : MonoBehaviour
         statusEnemySO.BattleInfo = "attack";
         statusEnemySO.HP -= statusSO.ATK;
         
-        statusSO.HP -= statusEnemySO.ATK;
+        statusSO.HP -= Math.Max(0,statusEnemySO.ATK-statusSO.EQUIP);
         if(statusEnemySO.HP < 0)
         {
             statusEnemySO.HP = 0;

@@ -19,13 +19,9 @@ public class magicButton : MonoBehaviour
 
     void push()
     {
-        if(statusSO.MP >= 10)
-        {
-            statusSO.ATK += 20;
-            statusSO.MP -= 10;
-            statusEnemySO.BattleInfo = "magic";
-        }
-        
+        //statusEnemySO.BattleInfo = "magic";
+        statusEnemySO.STAGE = SceneManager.GetActiveScene().name;
+        SceneManager.LoadScene("magic_select");
     }
 
     // Update is called once per frame

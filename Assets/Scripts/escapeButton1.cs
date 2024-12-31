@@ -2,8 +2,8 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
-    public class escapeButton1 : MonoBehaviour
-    {
+public class escapeButton1 : MonoBehaviour
+{
     [SerializeField] StatusEnemySO statusEnemySO;
     [SerializeField]
     private string sceneName;

@@ -42,10 +42,22 @@ public class Display_Console : MonoBehaviour
             
         }else if(statusEnemySO.BattleInfo == "attack")
         {
-            console_txt.GetComponent<TextMeshProUGUI>().text = "プレイヤーが"+statusSO.ATK.ToString()+"こうげきした!\n\n敵が"+statusEnemySO.ATK+"こうげきした!";
-        }else if(statusEnemySO.BattleInfo == "magic")
+            console_txt.GetComponent<TextMeshProUGUI>().text = "プレイヤーが"+statusSO.ATK.ToString()+"こうげきした!\n\n敵が"+Math.Max(0,statusEnemySO.ATK-statusSO.EQUIP)+"こうげきした!";
+        }else if(statusEnemySO.BattleInfo == "heal")
         {
-            console_txt.GetComponent<TextMeshProUGUI>().text = "まほうのこうか はつどう";
+            console_txt.GetComponent<TextMeshProUGUI>().text = "まほうのこうか はつどう!\n\nプレイヤーが 50かいふくした!";
+        }else if(statusEnemySO.BattleInfo == "fire")
+        {
+            console_txt.GetComponent<TextMeshProUGUI>().text = "まほうのこうか はつどう!\n\nプレイヤーが 50こうげきした!";
+        }else if(statusEnemySO.BattleInfo == "bless")
+        {
+            console_txt.GetComponent<TextMeshProUGUI>().text = "まほうのこうか はつどう!\n\nプレイヤーが 200こうげきした!";
+        }else if(statusEnemySO.BattleInfo == "protection")
+        {
+            console_txt.GetComponent<TextMeshProUGUI>().text = "まほうのこうか はつどう!\n\nプレイヤーが 50装備力UPした!";
+        }else if(statusEnemySO.BattleInfo == "boost")
+        {
+            console_txt.GetComponent<TextMeshProUGUI>().text = "まほうのこうか はつどう!\n\nプレイヤーが 30ATK UPした!";
         }
 
     }
