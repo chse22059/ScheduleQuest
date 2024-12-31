@@ -29,5 +29,8 @@ public class MapManager : MonoBehaviour
                 Destroy(MidbossObject);
             }
         }
+        if(GameManager.Instance.pushHomeButton) {
+            Destroy(gameObject);
+        }
     }
 }

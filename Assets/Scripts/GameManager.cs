@@ -6,8 +6,9 @@ public class GameManager : MonoBehaviour
     public static GameManager Instance;
     public bool isBossDefeated =false;
     public bool isMidBossDefeated=false;
+    public bool pushHomeButton=false;
     public Vector2 playerPosition; // プレイヤーの位置を保存
-
+    
     private void Awake()
     {
         if (Instance == null)

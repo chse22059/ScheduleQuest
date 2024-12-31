@@ -30329,6 +30329,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isBossDefeated: 0
   isMidBossDefeated: 0
+  pushHomeButton: 0
   playerPosition: {x: 0, y: 0}
 --- !u!4 &1895755586
 Transform:
