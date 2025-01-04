@@ -4057,58 +4057,6 @@ RectTransform:
   m_AnchoredPosition: {x: -200, y: -100}
   m_SizeDelta: {x: 350, y: 90}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!1 &965352521
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 965352522}
-  - component: {fileID: 965352523}
-  m_Layer: 0
-  m_Name: magicButtonManager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &965352522
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 965352521}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 42.053314, y: -214.7716, z: -16569.52}
-  m_LocalScale: {x: 191.99998, y: 191.99998, z: 191.99998}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 978670416}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &965352523
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 965352521}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7591427ed8ca5aa45a8e000aef337ad1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  statusSO: {fileID: 11400000, guid: 1cbc845adbd267b42afe6acfb44de554, type: 2}
-  statusEnemySO: {fileID: 11400000, guid: ac4a08d5b168eb4458c12c6b5a3bc74f, type: 2}
-  heal: {fileID: 133820400}
-  fire: {fileID: 1902483266}
-  bless: {fileID: 1549057656}
-  protection: {fileID: 903189713}
-  boost: {fileID: 629828639}
-  back: {fileID: 1818766979}
 --- !u!1 &978286160
 GameObject:
   m_ObjectHideFlags: 0
@@ -4366,7 +4314,6 @@ RectTransform:
   - {fileID: 556457783}
   - {fileID: 178531299}
   - {fileID: 1030027465}
-  - {fileID: 965352522}
   - {fileID: 1353831182}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
