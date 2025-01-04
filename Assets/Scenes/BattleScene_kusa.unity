@@ -2693,7 +2693,7 @@ GameObject:
   - component: {fileID: 1634251165}
   - component: {fileID: 1634251164}
   m_Layer: 0
-  m_Name: character_monster_dragon_01_red_0
+  m_Name: monster
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2743,7 +2743,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -4797190824467059264, guid: 38ee8c083db7a244bb8ab41f8309f6bd, type: 3}
+  m_Sprite: {fileID: -4797190824467059264, guid: 55a7734da4a63a540a67c35ec134b1de, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0

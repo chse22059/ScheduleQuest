@@ -11,7 +11,7 @@ public class StatusWindowManagerEnemy : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        
+        //statusEnemySO.MonsterId = ランダム
     }
 
     // Update is called once per frame

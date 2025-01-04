@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 38ee8c083db7a244bb8ab41f8309f6bd
+guid: 35c06a250e080e641a2b128e16e67043
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4797190824467059264
-    second: character_monster_dragon_01_red_0
+      213: 4881999822375291472
+    second: character_monster_slime_green_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: character_monster_dragon_01_red_0
+      name: character_monster_slime_green_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 500
-        height: 243
+        height: 357
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0cda0eb9c54fc6db0800000000000000
-      internalID: -4797190824467059264
+      spriteID: 05a0336f8f850c340800000000000000
+      internalID: 4881999822375291472
       vertices: []
       indices: 
       edges: []
@@ -147,8 +147,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      character_monster_dragon_01_red_0: -4797190824467059264
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
