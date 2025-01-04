@@ -27,7 +27,7 @@ public class shopSO : ScriptableObject
     public int MAGICSHIELD { get => magicShield; set => magicShield = value; }
     public int LEATHERARMOR{ get => leatherArmor; set => leatherArmor = value; }
     public int IRONARMOR { get => ironArmor; set => ironArmor = value; }
-    public int SUPERAEMOR { get => superArmor; set => superArmor = value; }
+    public int SUPERARMOR { get => superArmor; set => superArmor = value; }
     public int RECOVERYPOTION { get => recoveryPotion; set => recoveryPotion = value; }
     public int POWERPOTION { get => powerPotion; set => powerPotion = value; }
     public int MAGICPOTION { get => magicPotion; set => magicPotion = value; }

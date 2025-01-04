@@ -1,27 +1,29 @@
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using System;
+
 
 public class toolButton : MonoBehaviour
 {
-    void usingTool()
-    {
-        
-    }
+    [SerializeField] StatusEnemySO statusEnemySO;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         
+        this.GetComponent<Button>().onClick.AddListener(push);
     }
 
     void push()
     {
-        //道具選択画面に移動 or 2つのscene同時並行、したい
+        statusEnemySO.STAGE = SceneManager.GetActiveScene().name;
+        SceneManager.LoadScene("tool_select");
     }
 
     // Update is called once per frame
     void Update()
     {
-        
     }
 }
+

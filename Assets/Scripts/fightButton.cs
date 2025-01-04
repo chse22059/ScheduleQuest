@@ -19,9 +19,12 @@ public class fightButton : MonoBehaviour
     void push()
     {
         statusEnemySO.BattleInfo = "attack";
-        statusEnemySO.HP -= statusSO.ATK;
+        statusEnemySO.HP -= statusSO.ATK+statusEnemySO.ATKPlayerTemp;
         
-        statusSO.HP -= Math.Max(0,statusEnemySO.ATK-statusSO.EQUIP);
+        statusSO.HP -= Math.Max(0,statusEnemySO.ATK-statusSO.EQUIP-statusEnemySO.EquipPlayerTemp);
+
+        statusEnemySO.ATKPlayerTemp = 0;
+        statusEnemySO.EquipPlayerTemp = 0;
         if(statusEnemySO.HP < 0)
         {
             statusEnemySO.HP = 0;

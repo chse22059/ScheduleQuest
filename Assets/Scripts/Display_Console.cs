@@ -58,6 +58,48 @@ public class Display_Console : MonoBehaviour
         }else if(statusEnemySO.BattleInfo == "boost")
         {
             console_txt.GetComponent<TextMeshProUGUI>().text = "まほうのこうか はつどう!\n\nプレイヤーが 30ATK UPした!";
+        }else if(statusEnemySO.BattleInfo == "herb")
+        {
+            console_txt.GetComponent<TextMeshProUGUI>().text = "どうぐのこうか はつどう!\n\nプレイヤーが 20かいふくした!";
+        }else if(statusEnemySO.BattleInfo == "ironSword")
+        {
+            console_txt.GetComponent<TextMeshProUGUI>().text = "どうぐのこうか はつどう!\n\nこうげきのダメージを+10する!";
+        }else if(statusEnemySO.BattleInfo == "steelSword")
+        {
+            console_txt.GetComponent<TextMeshProUGUI>().text = "どうぐのこうか はつどう!\n\nこうげきのダメージを+30する!";
+        }else if(statusEnemySO.BattleInfo == "legendSword")
+        {
+            console_txt.GetComponent<TextMeshProUGUI>().text = "どうぐのこうか はつどう!\n\nこうげきのダメージを+50する!";
+        }else if(statusEnemySO.BattleInfo == "woodShield")
+        {
+            console_txt.GetComponent<TextMeshProUGUI>().text = "どうぐのこうか はつどう!\n\nプレイヤーが 10装備力UPした!";
+        }else if(statusEnemySO.BattleInfo == "ironShield")
+        {
+            console_txt.GetComponent<TextMeshProUGUI>().text = "どうぐのこうか はつどう!\n\nプレイヤーが 25装備力UPした!";
+        }else if(statusEnemySO.BattleInfo == "magicShield")
+        {
+            console_txt.GetComponent<TextMeshProUGUI>().text = "どうぐのこうか はつどう!\n\nプレイヤーが 40装備力UPした!";
+        }else if(statusEnemySO.BattleInfo == "leatherArmor")
+        {
+            console_txt.GetComponent<TextMeshProUGUI>().text = "どうぐのこうか はつどう!\n\n敵のこうげきを-10する!";
+        }else if(statusEnemySO.BattleInfo == "ironArmor")
+        {
+            console_txt.GetComponent<TextMeshProUGUI>().text = "どうぐのこうか はつどう!\n\n敵のこうげきを-30する!";
+        }else if(statusEnemySO.BattleInfo == "superArmor")
+        {
+            console_txt.GetComponent<TextMeshProUGUI>().text = "どうぐのこうか はつどう!\n\n敵のこうげきを-50する!";
+        }else if(statusEnemySO.BattleInfo == "recoveryPotion")
+        {
+            console_txt.GetComponent<TextMeshProUGUI>().text = "どうぐのこうか はつどう!\n\nプレイヤーが 50かいふくした!";
+        }else if(statusEnemySO.BattleInfo == "powerPotion")
+        {
+            console_txt.GetComponent<TextMeshProUGUI>().text = "どうぐのこうか はつどう!\n\nプレイヤーが 30ATK UPした!";
+        }else if(statusEnemySO.BattleInfo == "magicPotion")
+        {
+            console_txt.GetComponent<TextMeshProUGUI>().text = "どうぐのこうか はつどう!\n\nプレイヤーが 30MP UPした!";
+        }else if(statusEnemySO.BattleInfo == "book")
+        {
+            console_txt.GetComponent<TextMeshProUGUI>().text = "どうぐのこうか はつどう!\n\nプレイヤーが 50ATK UPした!\nプレイヤーが 100HP UPした!\nプレイヤーが 100MP UPした!\n";
         }
 
     }

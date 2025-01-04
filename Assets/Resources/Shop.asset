@@ -12,17 +12,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b9082e3efcad27747aa98648a2ad5244, type: 3}
   m_Name: Shop
   m_EditorClassIdentifier: 
-  herb: 0
-  ironSword: 0
-  steelSword: 0
-  legendSword: 0
-  woodShield: 0
-  ironShield: 0
+  herb: 1
+  ironSword: 1
+  steelSword: 1
+  legendSword: 1
+  woodShield: 1
+  ironShield: 1
   magicShield: 1
-  leatherArmor: 0
-  ironArmor: 0
-  superArmor: 0
-  recoveryPotion: 0
-  powerPotion: 0
-  magicPotion: 0
-  book: 0
+  leatherArmor: 1
+  ironArmor: 1
+  superArmor: 1
+  recoveryPotion: 1
+  powerPotion: 1
+  magicPotion: 1
+  book: 1

@@ -41,7 +41,7 @@ public class ButtonShop : MonoBehaviour
             new ShopItem { button = magicShield, price = 1200, itemName = "マジックシールド", purchaseAction = () => shop.MAGICSHIELD++ },
             new ShopItem { button = leatherArmor, price = 400, itemName = "皮の防具", purchaseAction = () => shop.LEATHERARMOR++ },
             new ShopItem { button = ironArmor, price = 1000, itemName = "鉄の防具", purchaseAction = () => shop.IRONARMOR++ },
-            new ShopItem { button = superArmor, price = 3500, itemName = "スーパーアーマー", purchaseAction = () => shop.SUPERAEMOR++ },
+            new ShopItem { button = superArmor, price = 3500, itemName = "スーパーアーマー", purchaseAction = () => shop.SUPERARMOR++ },
             new ShopItem { button = recoveryPotion, price = 300, itemName = "回復のポーション", purchaseAction = () => shop.RECOVERYPOTION++ },
             new ShopItem { button = powerPotion, price = 300, itemName = "力のポーション", purchaseAction = () => shop.POWERPOTION++ },
             new ShopItem { button = magicPotion, price = 300, itemName = "魔法のポーション", purchaseAction = () => shop.MAGICPOTION++ },
@@ -91,7 +91,7 @@ public class ButtonShop : MonoBehaviour
         PlayerPrefs.SetInt("magicShield", shop.MAGICSHIELD);
         PlayerPrefs.SetInt("letherArmor", shop.LEATHERARMOR);
         PlayerPrefs.SetInt("ironArmor", shop.IRONARMOR);
-        PlayerPrefs.SetInt("superArmor", shop.SUPERAEMOR);
+        PlayerPrefs.SetInt("superArmor", shop.SUPERARMOR);
         PlayerPrefs.SetInt("recoveryPotion", shop.RECOVERYPOTION);
         PlayerPrefs.SetInt("powerPotion", shop.POWERPOTION);
         PlayerPrefs.SetInt("magicPotion", shop.MAGICPOTION);
@@ -112,7 +112,7 @@ public class ButtonShop : MonoBehaviour
         shop.HERB = PlayerPrefs.GetInt("magicShield", shop.MAGICSHIELD);
         shop.HERB = PlayerPrefs.GetInt("letherArmor", shop.LEATHERARMOR);
         shop.HERB = PlayerPrefs.GetInt("ironArmor", shop.IRONARMOR);
-        shop.HERB = PlayerPrefs.GetInt("superArmor", shop.SUPERAEMOR);
+        shop.HERB = PlayerPrefs.GetInt("superArmor", shop.SUPERARMOR);
         shop.HERB = PlayerPrefs.GetInt("recoveryPotion", shop.RECOVERYPOTION);
         shop.HERB = PlayerPrefs.GetInt("powerPotion", shop.POWERPOTION);
         shop.HERB = PlayerPrefs.GetInt("magicPotion", shop.MAGICPOTION);
