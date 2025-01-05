@@ -28,6 +28,7 @@ public class toolButtonHandler : MonoBehaviour
     {
         back.onClick.AddListener(() => 
         {
+            statusEnemySO.BattleInfo = "noChange";
             SceneManager.LoadScene(statusEnemySO.STAGE);
         });
         herb.onClick.AddListener(() => 

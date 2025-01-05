@@ -2,12 +2,12 @@ using UnityEngine;
 using UnityEngine.UI;
 using System;
 
-
 public class fightButton : MonoBehaviour
 {
     [SerializeField] StatusEnemySO statusEnemySO;
     [SerializeField] StatusSO statusSO;
-    
+    private int[] goldValues = {50, 50, 50, 100, 100, 200, 200, 500, 500, 1000};
+    private int rand;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -43,7 +43,8 @@ public class fightButton : MonoBehaviour
         {
             statusEnemySO.BattleInfo = "isKilledEnemy";
             statusEnemySO.KilledCount += 1;
-            statusSO.GOLD += 1;
+            rand = UnityEngine.Random.Range(0, goldValues.Length);
+            statusSO.GOLD += goldValues[rand];
         }
     }
 

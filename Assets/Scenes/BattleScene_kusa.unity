@@ -2692,6 +2692,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1634251165}
   - component: {fileID: 1634251164}
+  - component: {fileID: 1634251166}
   m_Layer: 0
   m_Name: monster
   m_TagString: Untagged
@@ -2743,7 +2744,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -4797190824467059264, guid: 55a7734da4a63a540a67c35ec134b1de, type: 3}
+  m_Sprite: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -2751,7 +2752,7 @@ SpriteRenderer:
   m_Size: {x: 5, y: 2.43}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &1634251165
@@ -2769,6 +2770,30 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1634251166
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1634251163}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e685ffeaf79a68044bf7c28647744f16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  statusEnemySO: {fileID: 11400000, guid: ac4a08d5b168eb4458c12c6b5a3bc74f, type: 2}
+  spriteRenderer: {fileID: 1634251164}
+  sprites:
+  - {fileID: -545525029177294119, guid: 768194baa5266ee48999e0944f0ebd59, type: 3}
+  - {fileID: 6126741225655151788, guid: 8213e309a228b9a439b39475df6f6ecd, type: 3}
+  - {fileID: -8460871741672197799, guid: 3a0f40157103d3a4f80a4da4785a6004, type: 3}
+  - {fileID: 6823736611669705884, guid: d256dfd4f1a8da2408a55431514c9c6f, type: 3}
+  - {fileID: -4797190824467059264, guid: 55a7734da4a63a540a67c35ec134b1de, type: 3}
+  - {fileID: 4151312198189175837, guid: a5bb2a851c4ee8942a4f394847653b86, type: 3}
+  - {fileID: 4881999822375291472, guid: 35c06a250e080e641a2b128e16e67043, type: 3}
+  - {fileID: 3527037132414459613, guid: 4662c6a7402e3374db35514488a67189, type: 3}
+  - {fileID: 9107787855003730838, guid: ad2faa40f837fe2448f8e6cfb826e124, type: 3}
 --- !u!1 &1646034109
 GameObject:
   m_ObjectHideFlags: 0

@@ -43,6 +43,9 @@ public class Display_Console : MonoBehaviour
         }else if(statusEnemySO.BattleInfo == "attack")
         {
             console_txt.GetComponent<TextMeshProUGUI>().text = "プレイヤーが"+statusSO.ATK.ToString()+"こうげきした!\n\n敵が"+Math.Max(0,statusEnemySO.ATK-statusSO.EQUIP)+"こうげきした!";
+        }else if(statusEnemySO.BattleInfo =="gamePlaying")
+        {
+            console_txt.GetComponent<TextMeshProUGUI>().text = "";
         }else if(statusEnemySO.BattleInfo == "heal")
         {
             console_txt.GetComponent<TextMeshProUGUI>().text = "まほうのこうか はつどう!\n\nプレイヤーが 50かいふくした!";
