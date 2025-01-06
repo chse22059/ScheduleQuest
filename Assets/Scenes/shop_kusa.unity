@@ -5420,7 +5420,7 @@ MonoBehaviour:
   consoleTxt: {fileID: 0}
   goldTxt: {fileID: 0}
   shop: {fileID: 0}
-  status: {fileID: 0}
+  status: {fileID: 11400000, guid: 1cbc845adbd267b42afe6acfb44de554, type: 2}
   herb: {fileID: 0}
   ironSword: {fileID: 0}
   steelSword: {fileID: 0}

@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 09011628f65641c428a11af93e9cdfbc, type: 3}
   m_Name: EXP
   m_EditorClassIdentifier: 
-  totalEXP: 6
+  totalEXP: 10

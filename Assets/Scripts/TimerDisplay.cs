@@ -12,6 +12,11 @@ public class TimerDisplay : MonoBehaviour
     private float elapsedTime = 0f;  
     private bool isRunning = false; 
 
+    void start()
+    {
+        GTD.LoadEXP();
+    }
+
     void Update()
     {
         if (isRunning)
@@ -23,6 +28,7 @@ public class TimerDisplay : MonoBehaviour
             if (Mathf.FloorToInt(elapsedTime) % 30 == 0 && Mathf.FloorToInt(elapsedTime) != Mathf.FloorToInt(elapsedTime - Time.deltaTime))
             {
                 GTD.totalEXP += 1;
+                GTD.SaveEXP();
             }
         }
 
@@ -40,6 +46,11 @@ public class TimerDisplay : MonoBehaviour
     public void StopTimer()
     {
         isRunning = false;
+    }
+
+    void OnApplicationQuit()
+    {
+        GTD.SaveEXP();
     }
 }
 

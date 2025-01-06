@@ -12,13 +12,11 @@ public class StatusWindowManager : MonoBehaviour
     [SerializeField] TextMeshProUGUI EQUIPValue;
     [SerializeField] TextMeshProUGUI GOLDValue;
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        
+        statusSO.LoadStatus();
     }
 
-    // Update is called once per frame
     void Update()
     {
         HPValue.GetComponent<TextMeshProUGUI>().text = statusSO.HP.ToString();
@@ -28,3 +26,4 @@ public class StatusWindowManager : MonoBehaviour
         GOLDValue.GetComponent<TextMeshProUGUI>().text = statusSO.GOLD.ToString();
     }
 }
+
