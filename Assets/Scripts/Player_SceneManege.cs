@@ -10,8 +10,8 @@ public class Player_SceneManege : MonoBehaviour
     [SerializeField]
     private string battleScene;
     public string BattleSceneName => battleScene;
-
     public GameObject player;
+    bool canEncount=true;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     { 
@@ -31,13 +31,14 @@ public class Player_SceneManege : MonoBehaviour
     }
 
     public void TryEncounter() {
-        if(Random.value <= encounterProbability && player != null) {
-            Player_MoveController.canMove = false;
-            GameManager.Instance.SavePlayerPosition(player.transform.position);
-            SceneManager.LoadScene(BattleSceneName);
-            //SceneManager
-        } else {
-            Debug.Log("through");
+        if(canEncount){
+            if(Random.value <= encounterProbability && player != null) {
+                Player_MoveController.canMove = false;
+                GameManager.Instance.SavePlayerPosition(player.transform.position);
+                SceneManager.LoadScene(BattleSceneName);
+            } else {
+                Debug.Log("through");
+            }
         }
     }
 
@@ -54,6 +55,14 @@ public class Player_SceneManege : MonoBehaviour
         } else if(col.gameObject.tag == "MidBoss") {
             GameManager.Instance.SavePlayerPosition(player.transform.position);
             SceneManager.LoadScene("MidBoss_Battle(kari)");
+        }
+    }
+
+    void OnTriggerStay2D(Collider2D col){
+        if(col.gameObject.tag == "notEncount"){
+            canEncount=false;
+        } else {
+            canEncount=true;
         }
     }
 }
