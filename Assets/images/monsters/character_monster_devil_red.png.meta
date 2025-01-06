@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      character_monster_devil_red_0: 6126741225655151788
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

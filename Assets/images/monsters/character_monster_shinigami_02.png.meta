@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      character_monster_shinigami_02_0: 4151312198189175837
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
