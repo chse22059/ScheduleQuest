@@ -10,7 +10,7 @@ EditorBuildSettings:
     guid: bc72a591e4418404ab2b9671bdd664c9
   - enabled: 1
     path: Assets/Scenes/kusa.unity
-    guid: 8c9cfa26abfee488c85f1582747f6a02
+    guid: f9646b1dc8abca74ab2819e9ea1e0fc8
   - enabled: 1
     path: Assets/Scenes/cave.unity
     guid: 27bf53e221f2ad244971fb0688d7b91f
@@ -42,6 +42,18 @@ EditorBuildSettings:
     path: Assets/Scenes/shop_kusa.unity
     guid: e9d21618c3899694a8b72a3d478f181d
   - enabled: 1
+    path: Assets/Scenes/shop_snow.unity
+    guid: 5763bdfa1e894a4428abc57cd3460cc7
+  - enabled: 1
+    path: Assets/Scenes/shop_spookey.unity
+    guid: d9572cb213fdc6f4882a090e6ec4e919
+  - enabled: 1
+    path: Assets/Scenes/shop_cave.unity
+    guid: c604e090a27ef7549a4c74ebb3a8fc27
+  - enabled: 1
+    path: Assets/Scenes/shop_kazan.unity
+    guid: c0ba09c2c4311bd40ab28c45ae2dc763
+  - enabled: 1
     path: Assets/Scenes/HomeScene.unity
     guid: 7ff7a80d2155a544b84737c9ade91d46
   - enabled: 1
@@ -50,6 +62,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/magic_select.unity
     guid: 65150d197f22c8a40801748d8013d0f2
+  - enabled: 1
+    path: Assets/Scenes/todolist.unity
+    guid: 376b3b6a5a5b9bf4bbc893f717099e74
   - enabled: 1
     path: Assets/Scenes/tool_select.unity
     guid: 4363491aca51fed41a236fcb9754c4fc
