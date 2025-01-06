@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      character_monster_slime_green_0: 4881999822375291472
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

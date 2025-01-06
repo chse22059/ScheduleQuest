@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      character_monster_dragon_01_green_0: 6823736611669705884
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
