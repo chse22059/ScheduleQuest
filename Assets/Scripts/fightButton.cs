@@ -42,10 +42,13 @@ public class fightButton : MonoBehaviour
         if(statusEnemySO.HP <= 0)
         {
             statusEnemySO.BattleInfo = "isKilledEnemy";
-            statusEnemySO.KilledCount += 1;
-            rand = UnityEngine.Random.Range(0, goldValues.Length);
-            statusSO.GOLD += goldValues[rand];
+            getReward();
         }
+    }
+    public void getReward(){
+        statusEnemySO.KilledCount += 1;
+        rand = UnityEngine.Random.Range(0, goldValues.Length);
+        statusSO.GOLD += goldValues[rand];
     }
 
     // Update is called once per frame

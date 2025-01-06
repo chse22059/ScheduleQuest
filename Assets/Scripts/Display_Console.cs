@@ -36,6 +36,7 @@ public class Display_Console : MonoBehaviour
             console_txt.GetComponent<TextMeshProUGUI>().text = "プレイヤーがやられた!\n\nマップへとぶ!   ▼";
             if(Input.GetMouseButtonDown(0))
             {
+                statusSO.HP = 10;
                 statusEnemySO.BattleInfo = "";
                 SceneManager.LoadScene(SceneName);
             }

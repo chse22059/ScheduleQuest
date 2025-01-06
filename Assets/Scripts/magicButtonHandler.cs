@@ -14,6 +14,15 @@ public class magicButtonHandler : MonoBehaviour
     public Button boost;
     public Button back; 
 
+    private int[] goldValues = {50, 50, 50, 50, 100, 100, 200, 200, 200, 1000};
+    private int rand;
+
+    public void getReward(){
+        statusEnemySO.KilledCount += 1;
+        rand = UnityEngine.Random.Range(0, goldValues.Length);
+        statusSO.GOLD += goldValues[rand];
+    }
+
     void Start()
     {
         back.onClick.AddListener(() => 
@@ -40,6 +49,11 @@ public class magicButtonHandler : MonoBehaviour
                 statusSO.MP -= 5;
                 statusEnemySO.HP -= 50;
                 statusEnemySO.BattleInfo = "fire";
+                if(statusEnemySO.HP <= 0)
+                {
+                    statusEnemySO.BattleInfo = "isKilledEnemy";
+                    getReward();
+                }
                 SceneManager.LoadScene(statusEnemySO.STAGE);
             }
         });
@@ -51,6 +65,11 @@ public class magicButtonHandler : MonoBehaviour
                 statusSO.MP -= 30;
                 statusEnemySO.HP -= 200;
                 statusEnemySO.BattleInfo = "bless";
+                if(statusEnemySO.HP <= 0)
+                {
+                    statusEnemySO.BattleInfo = "isKilledEnemy";
+                    getReward();
+                }
                 SceneManager.LoadScene(statusEnemySO.STAGE);
             }
         });
