@@ -33,17 +33,20 @@ public class magicButtonHandler : MonoBehaviour
 
         heal.onClick.AddListener(() => 
         {
+            statusSO.LoadStatus();
             if(statusSO.MP >= 10)
             {
                 statusSO.MP -= 10;
                 statusSO.HP += 50;
                 statusEnemySO.BattleInfo = "heal";
+                statusSO.SaveStatus();
                 SceneManager.LoadScene(statusEnemySO.STAGE);
             }
         });
 
         fire.onClick.AddListener(() => 
         {
+            statusSO.LoadStatus();
             if(statusSO.MP >= 5)
             {
                 statusSO.MP -= 5;
@@ -54,12 +57,14 @@ public class magicButtonHandler : MonoBehaviour
                     statusEnemySO.BattleInfo = "isKilledEnemy";
                     getReward();
                 }
+                statusSO.SaveStatus();
                 SceneManager.LoadScene(statusEnemySO.STAGE);
             }
         });
 
         bless.onClick.AddListener(() => 
         {
+            statusSO.LoadStatus();
             if(statusSO.MP >= 30)
             {
                 statusSO.MP -= 30;
@@ -70,28 +75,33 @@ public class magicButtonHandler : MonoBehaviour
                     statusEnemySO.BattleInfo = "isKilledEnemy";
                     getReward();
                 }
+                statusSO.SaveStatus();
                 SceneManager.LoadScene(statusEnemySO.STAGE);
             }
         });
 
         protection.onClick.AddListener(() => 
         {
+            statusSO.LoadStatus();
             if(statusSO.MP >= 10)
             {
                 statusSO.MP -= 10;
                 statusSO.EQUIP += 50;
                 statusEnemySO.BattleInfo = "protection";
+                statusSO.SaveStatus();
                 SceneManager.LoadScene(statusEnemySO.STAGE);
             }
         });
 
         boost.onClick.AddListener(() => 
         {
+            statusSO.LoadStatus();
             if(statusSO.MP >= 20)
             {
                 statusSO.MP -= 20;
                 statusSO.ATK += 30;
                 statusEnemySO.BattleInfo = "boost";
+                statusSO.SaveStatus();
                 SceneManager.LoadScene(statusEnemySO.STAGE);
             }
         });

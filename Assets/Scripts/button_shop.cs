@@ -24,6 +24,7 @@ public class ButtonShop : MonoBehaviour
     void Start()
     {
         // ステータスをロード
+        shop.LoadStatus();
         LoadStatus();
         
         // 所持金テキストを初期化
@@ -66,6 +67,7 @@ public class ButtonShop : MonoBehaviour
             UpdateGoldText();
 
             // ステータスを保存
+            shop.SaveStatus();
             SaveStatus();
         }
         else
@@ -78,46 +80,13 @@ public class ButtonShop : MonoBehaviour
     {
         goldTxt.text = $"所持金: {status.GOLD}G";
     }
-
-    private void SaveStatus()
-    {
+    private void SaveStatus(){
         PlayerPrefs.SetInt("Gold", status.GOLD);
-        PlayerPrefs.SetInt("Herb", shop.HERB);
-        PlayerPrefs.SetInt("ironSword", shop.IRONSWORD);
-        PlayerPrefs.SetInt("steelSword", shop.STEELSWORD);
-        PlayerPrefs.SetInt("legendSword", shop.LEGENDSWORD);
-        PlayerPrefs.SetInt("woodShield", shop.WOODSHIELD);
-        PlayerPrefs.SetInt("ironShield", shop.IRONSHIELD);
-        PlayerPrefs.SetInt("magicShield", shop.MAGICSHIELD);
-        PlayerPrefs.SetInt("letherArmor", shop.LEATHERARMOR);
-        PlayerPrefs.SetInt("ironArmor", shop.IRONARMOR);
-        PlayerPrefs.SetInt("superArmor", shop.SUPERARMOR);
-        PlayerPrefs.SetInt("recoveryPotion", shop.RECOVERYPOTION);
-        PlayerPrefs.SetInt("powerPotion", shop.POWERPOTION);
-        PlayerPrefs.SetInt("magicPotion", shop.MAGICPOTION);
-        PlayerPrefs.SetInt("book", shop.BOOK);
-        // 他のアイテムも保存
         PlayerPrefs.Save();
     }
 
-    private void LoadStatus()
-    {
+    private void LoadStatus(){
         status.GOLD = PlayerPrefs.GetInt("Gold", status.GOLD);
-        shop.HERB = PlayerPrefs.GetInt("Herb", shop.HERB);
-        shop.HERB = PlayerPrefs.GetInt("ironSword", shop.IRONSWORD);
-        shop.HERB = PlayerPrefs.GetInt("steelSword", shop.STEELSWORD);
-        shop.HERB = PlayerPrefs.GetInt("legendSword", shop.LEGENDSWORD);
-        shop.HERB = PlayerPrefs.GetInt("woodShield", shop.WOODSHIELD);
-        shop.HERB = PlayerPrefs.GetInt("ironShield", shop.IRONSHIELD);
-        shop.HERB = PlayerPrefs.GetInt("magicShield", shop.MAGICSHIELD);
-        shop.HERB = PlayerPrefs.GetInt("letherArmor", shop.LEATHERARMOR);
-        shop.HERB = PlayerPrefs.GetInt("ironArmor", shop.IRONARMOR);
-        shop.HERB = PlayerPrefs.GetInt("superArmor", shop.SUPERARMOR);
-        shop.HERB = PlayerPrefs.GetInt("recoveryPotion", shop.RECOVERYPOTION);
-        shop.HERB = PlayerPrefs.GetInt("powerPotion", shop.POWERPOTION);
-        shop.HERB = PlayerPrefs.GetInt("magicPotion", shop.MAGICPOTION);
-        shop.HERB = PlayerPrefs.GetInt("book", shop.BOOK);
-        // 他のアイテムも読み込み
     }
 }
 

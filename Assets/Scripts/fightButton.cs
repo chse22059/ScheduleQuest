@@ -12,12 +12,12 @@ public class fightButton : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        
         this.GetComponent<Button>().onClick.AddListener(push);
     }
 
     void push()
     {
+        statusSO.LoadStatus();
         statusEnemySO.BattleInfo = "attack";
         statusEnemySO.HP -= statusSO.ATK+statusEnemySO.ATKPlayerTemp;
         
@@ -44,6 +44,7 @@ public class fightButton : MonoBehaviour
             statusEnemySO.BattleInfo = "isKilledEnemy";
             getReward();
         }
+        statusSO.SaveStatus();
     }
     public void getReward(){
         statusEnemySO.KilledCount += 1;
